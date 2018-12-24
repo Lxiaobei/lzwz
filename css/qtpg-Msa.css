@@ -1,0 +1,286 @@
+.wrap{
+    width: 100%;
+}
+
+
+/*  */
+.msa-1-1{
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 23px;
+    background-image: url('../images/9.png');
+    padding-bottom: 110px;
+
+}
+.msa-1-3{
+    width: 74%;
+    margin: 0 auto;
+}
+.msa-1-4{
+    display: flex;  justify-content:center;
+}
+
+.msa-1-5{
+    margin-top: 130px;
+}
+/*  */
+.msa3{
+    width: 100%;
+    height: 600px;
+    background-image: url('../images/msa-1.jpg');
+}
+.msa3 img{
+    width: 100%;
+}
+/*  */
+.msa-2-1{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;  justify-content:center;	
+    margin-top: 30px;
+}
+/*  */
+/* footer */
+.footer_nav {
+    width: 100%;
+    background-color: #990000;
+    height: 10vh;
+}
+
+.footer_nav ul {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.footer_nav ul li {
+    float: left;
+    width: 19.9%;
+    list-style: none;
+    border-right: 1px solid #890000;
+    height: 10vh;
+}
+
+.footer_nav ul li img {
+    margin-top: 3vh;
+    margin-left: 18%;
+}
+
+.footer_nav ul li:last-child {
+    border-right: none;
+}
+
+.footer {
+    padding-top: 60px;
+    padding-left: 10%;
+    background-color: #fff;
+}
+
+.footer_l {
+    width: 20%;
+    color: #353535;
+    float: left;
+}
+
+.footer_l h2 {
+    color: #990000;
+    margin-top: 5px;
+    display: block;
+    border-bottom: 2px solid #bebfbb;
+    padding-bottom: 5px;
+}
+
+.footer_l h3 {
+    margin-top: 5px;
+}
+
+.footer_l ul li {
+    list-style: none;
+    font-size: 13px;
+    width: 100%;
+    height: 2vh;
+    margin-top: 5px;
+}
+
+.footer_l ul li p,
+.footer_l ul li span {
+    float: left;
+}
+
+.footer_c {
+    float: left;
+    width: 40%;
+    color: #353535;
+    margin-left: 15%;
+}
+
+.footer_c div {
+    float: left;
+}
+
+.footer_c li {
+    list-style: none;
+    margin-top: 1vh;
+}
+
+.footer_c li a {
+    text-decoration: none;
+    color: #353535;
+    font-size: 13px;
+}
+
+.footer_c div {
+    margin-left: 10%;
+}
+
+.footer_c li a:hover {
+    color: red;
+}
+
+.footer_r {
+    margin-left: 85%;
+}
+/* 选项卡 */
+.zero{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;  justify-content:center;	
+    margin-left: -7%;
+    position: relative;
+}
+.zero li{
+    margin-left: 15%;
+}
+.zero3{
+    position: relative;
+}
+.zero2{
+    position: absolute;
+    left: 1%;
+    top: 4%;
+    z-index: 99;
+}
+
+/*  */
+.tab{
+    display: none;
+}
+.active{
+    display: block;
+}
+/*  */
+/* 上下轮播 */
+.myscroll {height: 500px; margin: 0 auto;line-height: 26px;overflow: hidden;}
+.myscroll li { height: 130px; overflow: hidden;}
+.myscroll img { border: 0 none;}
+/* 动画 */
+@keyframes rollIn {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg);
+      transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg);
+    }
+  
+    to {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  @keyframes rollOn{
+      from{
+          opacity: 0;
+      }
+      to{
+          opacity: 1;
+      }
+  }
+  /* .bg,.bg1,.bg2,.bg3,.Mi{
+      opacity: 0;
+  } */
+  .Si {
+    animation: rollIn 2s;
+    animation-fill-mode: forwards;
+    /*停在最后一针*/
+    animation-direction: alternate;
+    animation-delay: .2s;
+}
+  .Si1 {
+    animation: rollIn 2s;
+    animation-fill-mode: forwards;
+    /*停在最后一针*/
+    animation-direction: alternate;
+    animation-delay: .3s;
+}
+  .Si2 {
+    animation: rollIn 2s;
+    animation-fill-mode: forwards;
+    /*停在最后一针*/
+    animation-direction: alternate;
+    animation-delay: .4s;
+}
+  .Si3 {
+    animation: rollIn 2s;
+    animation-fill-mode: forwards;
+    /*停在最后一针*/
+    animation-direction: alternate;
+    animation-delay: .5s;
+}
+  .Si4 {
+    animation: rollOn 2s;
+    animation-fill-mode: forwards;
+    /*停在最后一针*/
+    animation-direction: alternate;
+    animation-delay: .5s;
+}
+/*  */
+.fooo{
+    display: none;
+}
+/*  */
+@media screen and (max-width:1000px){
+    .footer,.footer_nav{
+        display: none;
+    }
+    .zero li{
+        margin-left: 0;
+    }
+    .Mi{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .msa img{
+        margin-left: 0;
+    }
+    .msa1{
+        width: 101%;
+    }
+    .msa3{
+        height: 30vh;
+        background-size: 100% 100%;
+        display: flex;  align-items: center;
+    }
+    .zero{
+        margin-left: 0;
+    }
+    .zero img{
+        width: 70%;
+    }
+    .msa-1-1{
+        padding-bottom: 0;
+    }
+    .msa-1-3{
+        width: 100%;
+    }
+    .zero3 img{
+        width: 99%;
+    }
+    .myscroll{
+        height:34vh;
+    }
+    .myscroll img{
+        width: 100%;
+    }
+    .myscroll li{
+        height: 10vh;
+    }
+}

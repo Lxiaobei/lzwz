@@ -1,0 +1,70 @@
+@charset "utf-8";
+body {margin:0px;font-family:宋体,arial,sans-serif;}
+/*background:url(<?php echo $frame_url_add; ?>/skin/30011/picture/2001.jpg);background-repeat:repeat;*/
+.yam1 {font-size: 14px;color: #3a3a3a;font-family:微软雅黑,宋体,arial,sans-serif;LINE-HEIGHT: 2;}
+.yam1 a:link {color: #3a3a3a;text-decoration:none;font-family:微软雅黑,宋体,arial,sans-serif;LINE-HEIGHT: 2;}
+.yam1 a:visited {color: #3a3a3a;text-decoration:none;font-family:微软雅黑,宋体,arial,sans-serif;LINE-HEIGHT: 2;}
+.yam1 a:hover {text-decoration:none;color: #3a3a3a;font-family:微软雅黑,宋体,arial,sans-serif;LINE-HEIGHT: 2;}
+.yam1 a:active {color: #3a3a3a;text-decoration:none;font-family:微软雅黑,宋体,arial,sans-serif;LINE-HEIGHT: 2;}
+.yam2 {font-size: 14px;color: #ffffff;font-family:微软雅黑,宋体,arial,sans-serif;LINE-HEIGHT:2;}
+.yam2 a:link {color: #ffffff;text-decoration:none;font-family:微软雅黑,宋体,arial,sans-serif;LINE-HEIGHT:2;}
+.yam2 a:visited {color: #ffffff;text-decoration:none;font-family:微软雅黑,宋体,arial,sans-serif;LINE-HEIGHT:2;}
+.yam2 a:hover {text-decoration:none;color: #ffffff;font-family:微软雅黑,宋体,arial,sans-serif;LINE-HEIGHT:2;}
+.yam2 a:active {color: #ffffff;text-decoration:none;font-family:微软雅黑,宋体,arial,sans-serif;LINE-HEIGHT:2;}
+.yam3 {font-size: 12px;color: #979797;LINE-HEIGHT:2;}
+.yam3 a:link {color: #979797;text-decoration:none;LINE-HEIGHT:2;}
+.yam3 a:visited {color: #979797;text-decoration:none;LINE-HEIGHT:2;}
+.yam3 a:hover {text-decoration:none;color: #979797;LINE-HEIGHT:2;}
+.yam3 a:active {color: #979797;text-decoration:none;LINE-HEIGHT:2;}
+.cebiaoti {font-size: 16px;color: #00822c;font-family:微软雅黑,宋体,arial,sans-serif;LINE-HEIGHT: 2}
+.cebiaoti a:link {font-size: 16px;color: #00822c;text-decoration:none;font-family:微软雅黑,宋体,arial,sans-serif;LINE-HEIGHT: 2}
+.cebiaoti a:visited {font-size: 16px;color: #00822c;text-decoration:none;font-family:微软雅黑,宋体,arial,sans-serif;LINE-HEIGHT: 2}
+.cebiaoti a:hover {font-size: 16px;text-decoration:none;color: #00822c;font-family:微软雅黑,宋体,arial,sans-serif;LINE-HEIGHT: 2}
+.cebiaoti a:active {font-size: 16px;color: #00822c;text-decoration:none;font-family:微软雅黑,宋体,arial,sans-serif;LINE-HEIGHT: 2}
+.cegengduo {font-size: 12px;color: #656565;LINE-HEIGHT: 2}
+.cegengduo a:link {font-size: 12px;color: #656565;text-decoration:none;LINE-HEIGHT: 2}
+.cegengduo a:visited {font-size: 12px;color: #656565;text-decoration:none;LINE-HEIGHT: 2}
+.cegengduo a:hover {font-size: 12px;text-decoration:none;color: #656565;LINE-HEIGHT: 2}
+.cegengduo a:active {font-size: 12px;color: #656565;text-decoration:none;LINE-HEIGHT: 2}
+.zhubiaoti {font-size: 16px;color: #00822c;font-family:微软雅黑,宋体,arial,sans-serif;LINE-HEIGHT: 2;}
+.zhubiaoti a:link {font-size: 16px;color: #00822c;text-decoration:none;font-family:微软雅黑,宋体,arial,sans-serif;LINE-HEIGHT: 2;}
+.zhubiaoti a:visited {font-size: 16px;color: #00822c;text-decoration:none;font-family:微软雅黑,宋体,arial,sans-serif;LINE-HEIGHT: 2;}
+.zhubiaoti a:hover {font-size: 16px;text-decoration:none;color: #00822c;font-family:微软雅黑,宋体,arial,sans-serif;LINE-HEIGHT: 2;}
+.zhubiaoti a:active {font-size: 16px;color: #00822c;text-decoration:none;font-family:微软雅黑,宋体,arial,sans-serif;LINE-HEIGHT: 2;}
+.zhugengduo {font-size: 12px;color: #656565;LINE-HEIGHT: 2}
+.zhugengduo a:link {font-size: 12px;color: #656565;text-decoration:none;LINE-HEIGHT: 2}
+.zhugengduo a:visited {font-size: 12px;color: #656565;text-decoration:none;LINE-HEIGHT: 2}
+.zhugengduo a:hover {font-size: 12px;text-decoration:none;color: #656565;LINE-HEIGHT: 2}
+.zhugengduo a:active {font-size: 12px;color: #656565;text-decoration:none;LINE-HEIGHT: 2}
+.zhuneirong {font-size: 12px;color: #656565;LINE-HEIGHT: 2}
+.zhuneirong a:link {font-size: 12px;color: #656565;text-decoration:none;LINE-HEIGHT: 2}
+.zhuneirong a:visited {font-size: 12px;color: #656565;text-decoration:none;LINE-HEIGHT: 2}
+.zhuneirong a:hover {font-size: 12px;text-decoration:none;color: #656565;LINE-HEIGHT: 2}
+.zhuneirong a:active {font-size: 12px;color: #656565;text-decoration:none;LINE-HEIGHT: 2}
+.ceneirong {font-size: 12px;color: #656565;LINE-HEIGHT: 2}
+.ceneirong a:link {font-size: 12px;color: #656565;text-decoration:none;LINE-HEIGHT: 2}
+.ceneirong a:visited {font-size: 12px;color: #656565;text-decoration:none;LINE-HEIGHT: 2}
+.ceneirong a:hover {font-size: 12px;text-decoration:none;color: #656565;LINE-HEIGHT: 2}
+.ceneirong a:active {font-size: 12px;color: #656565;text-decoration:none;LINE-HEIGHT: 2}
+
+
+/*  */
+
+.yam1{
+    position:relative;
+    width: 100%;
+}
+.td_p{
+    text-align: center; width: 100%;
+    margin: 0;
+}
+.td_p img{
+    width: 10%;
+    height: 175px;
+}
+tr .td_o{
+    width: 20%;
+}
+.td_i img{
+    width: 100%;
+}

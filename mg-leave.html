@@ -1,0 +1,140 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+  *{
+    margin: 0;
+    padding: 0;
+  }
+    body{
+      width: 100%;
+      height: 100vh;
+      padding-top: 14vh;
+    }
+      .none{
+        display: none;
+      }
+      .nav{
+        margin-left: 26%;
+        width: 60%;
+        height: 100vh;
+      }
+      #name,#phone,#city{
+        width: 45%;
+        height: 5vh;
+        border:none;
+        margin-bottom: 3vh;
+        border-bottom:1px solid #ccc;
+      }
+      img{
+        position: absolute;
+      }
+      .img{
+        top: 12%;
+        left: 0%;
+        width: 30%;
+        height: 86vh;
+      }
+      .img1{
+        top: 57%;
+        left: 86%;
+        width: 13%;
+        height: 37vh;
+      }
+      textarea{
+        width: 100%;
+        height: 50vh;
+      }
+      #btn{
+        width: 20%;
+        border-radius: 5px;
+        text-align: center;
+        line-height: 5vh;
+        float: right;
+        margin-top: 2vh;
+        background-color: #b73838;
+        color:#fff;
+      }
+      input,textarea{ border:1px #ccc solid;outline:none; }
+  </style>
+</head>
+<body>
+    <nav class="nav">
+      <img src="./images/liuyan.png" alt="" class="img">
+      <form action="/leave" method="POST">
+          <p><b>姓 名：</b><input type="text" id="name" name="name">&nbsp;&nbsp;<span style="color:red;">*</span>&nbsp;&nbsp;<span id="sName" class="none" style="color:red;font-size: 10px;">姓名不能为空</span></p>
+          <p><b>电 话：</b><input type="text" id="phone" name="phone">&nbsp;&nbsp;<span style="color:red;">*</span>&nbsp;&nbsp;<span id="sPhone" class="none" style="color:red;font-size: 10px;">请输入正确的手机号</span></p>
+          <p><b>地 区：</b><input type="text" id="city" name="city">&nbsp;&nbsp;<span style="color:red;">*</span>&nbsp;&nbsp;<span id="sCity" class="none" style="color:red;font-size: 10px;">请填写所在城市</span></p>
+          <p><textarea name="text" id="text" cols="60" rows="10"></textarea></p>
+          <span class="none" id="sText" style="color:red;font-size: 12px;">留言请保持在100字以内</span>
+          <p><button id="btn" type="submit">提交留言</button></p>
+      </form>
+      <img src="./images/sanjiao.png" alt="" class="img1">  
+    </nav>
+    <script src="./js/jquery-3.3.1.min.js"></script>
+    <script>
+      $(document).ready(function(){
+          var p = 'y';
+          var myreg = /^(((13[0-9]{1})|(14[0-9]{1})|(17[0]{1})|(15[0-3]{1})|(15[5-9]{1})|(18[0-9]{1}))+\d{8})$/;
+
+          $('#name').blur(function(){
+              if ($.trim($('#name').val()) == '') {
+                  $('#sName').removeClass('none');
+                  p = 'n';
+              }else{
+                  $('#sName').addClass('none');
+                  p = 'y';
+              }
+          });
+          $('#phone').blur(function(){
+              if (!myreg.test($.trim($('#phone').val()))) {
+                  $('#sPhone').removeClass('none');
+                  p = 'n';
+              }else{
+                  $('#sPhone').addClass('none');
+                  p = 'y';
+              }
+          });
+          $('#city').blur(function(){
+              if ($.trim($('#city').val()) == '') {
+                  $('#sCity').removeClass('none');
+                  p = 'n';
+              }else{
+                  $('#sCity').addClass('none');
+                  p = 'y'
+              }
+          });
+          $('#btn').click(function(){
+              var ci = $.trim($('#city').val());
+              var na = $.trim($('#name').val());
+              var text = $('#text').val();
+              
+              if (p == 'n') {
+                  return false;
+              }
+              if (na == '') {
+                 $('#sName').removeClass('none');
+                 return false; 
+              }
+              if (!myreg.test($.trim($('#phone').val()))) {
+                 $('#sPhone').removeClass('none');
+                 return false;
+              }
+              if (ci == '') {
+                  $('#sCity').removeClass('none');
+                  return false; 
+              }
+              if (text.length > 300) {
+
+                  $('#sText').removeClass('none');
+                  return false;
+              }
+          });
+      });
+       
+    </script>
+</body>
+</html>

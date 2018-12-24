@@ -1,0 +1,40 @@
+.wrap{
+    width: 100%;
+}
+
+/*  */
+.cc{
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+.cc1{
+    width: 100%;
+    margin: 0 auto;
+    background-image: url('../images/9.png');
+    background-size: 100% 100%;
+}
+.cc1 img{
+    width: 70%;
+    margin: 0 auto;
+    display: block;
+    padding-top: 2%;
+}
+
+
+/*  */
+@media screen and (max-width:1000px){
+    .footer,.footer_nav{
+        display: none;
+    }
+    .cu1 {
+        width: 101%;
+        margin: 0 auto;
+    }
+    .cu img{
+        margin-left: 0;
+    }
+    .cc1 img{
+        width: 100%;
+    }
+}

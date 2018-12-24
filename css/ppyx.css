@@ -1,0 +1,33 @@
+.wrap{
+    width: 100%;
+    margin: 0 auto;
+}
+.ppyx{
+    position: relative;
+}
+.ppyx img{
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+.ppyx .ppyx-1{
+    position: absolute;
+    left: 26%;
+    top: 30%;
+    width: 50%;
+}
+/*  */
+.top{
+    margin-top: 120px;
+    background-color: #dbd2bd;
+    width: 100%;
+    margin: 0 auto; 
+}
+.top-1{
+    width: 80%;
+    margin: 0 auto;
+}
+.top-2{
+    font-size: 110px;
+    color:#ce0a2e;
+}

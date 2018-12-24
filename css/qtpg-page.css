@@ -1,0 +1,39 @@
+body{
+    width: 100vw;
+    height: 100vh;
+}
+::-webkit-scrollbar{width:0;height:0} /*去除上下滚动条*/
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.page{
+    display: flex;  justify-content: space-between;
+    padding: 0;
+}
+.page>li{
+    padding: 2px 6px;
+    cursor: pointer;
+}
+.page .pageItem{
+    margin: 5px;
+    background-color: #990100;
+    color:#fff;
+}
+.page .pageItemActive{
+    border: solid thin #990100;
+    margin: 5px;
+}
+.page .pageItem:hover{
+    border: solid thin #fff;
+    background-color: #990100;
+    color:#000;
+}
+.page .pageItemDisable{
+    border: solid thin #990100;
+    margin: 5px;
+    background-color: #990100;
+    color:#fff;
+}

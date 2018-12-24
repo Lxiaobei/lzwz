@@ -1,0 +1,75 @@
+@charset "utf-8";
+/** 全局样式 **/
+.FrontProductsCategory_show01-d5_c1 {
+	width:100%;
+	margin:0 auto;
+	color:#4c4948;
+	overflow:hidden;
+	clear:both;
+	text-align:left;
+}
+.FrontProductsCategory_show01-d5_c1 ul li {
+	margin:0;
+	padding:0;
+/*	background:url(/images/probg.jpg) 0 0 repeat-x;
+*/	line-height:22px;
+/*border-bottom:1px dotted #757575;
+*/
+}
+.FrontProductsCategory_show01-d5_c1 ul li em {
+	font-style: normal;
+
+}
+/** 打开状态 **/
+.FrontProductsCategory_show01-d5_c1 li span.menu-open {
+	text-align:left;
+	background-image: url('../images/icon01.jpg');
+	background-repeat: no-repeat;
+	padding-left: 0px;
+	background-position: left 50%;
+	cursor:default;
+	display:inline;
+}
+/** 无子菜单 **/
+.FrontProductsCategory_show01-d5_c1 li span.menu-none {
+	background-image: url('../images/icon01.jpg');
+	background-repeat: no-repeat;
+	background-position: left 50%;
+	padding-left: 0px;
+	cursor:default;
+	display:inline;
+}
+/** 关闭状态 **/
+.FrontProductsCategory_show01-d5_c1 li span.menu-close {
+	background-image: url('../images/icon01.jpg');
+	background-repeat: no-repeat;
+	background-position: left 50%;
+	padding-left: 0px;
+	cursor:default;
+	display:inline;
+}
+
+
+.FrontProductsCategory_show01-d5_c1 li a.current {
+	color:#F00;
+	font-weight:bold;
+}
+/** 缩进 **/
+
+
+.FrontProductsCategory_show01-d5_c1 ul li ul {
+	text-indent: 15px; font-weight:normal;
+}
+
+.FrontProductsCategory_show01-d5_c1 ul li ul li ul{
+	text-indent: 30px;
+}
+.FrontProductsCategory_show01-d5_c1 ul li ul li ul li ul{
+	text-indent: 75px;
+}
+.FrontProductsCategory_show01-d5_c1 ul li ul li ul li ul li ul{
+	text-indent: 100px;
+}
+.FrontProductsCategory_show01-d5_c1 ul li ul li ul li ul li ul li ul{
+	text-indent: 125px;
+}

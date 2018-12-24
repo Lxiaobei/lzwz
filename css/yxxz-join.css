@@ -1,0 +1,243 @@
+.wrap{
+    width: 100%;
+    background-image: url('../images/yxxz-a1.jpg');
+    display: flex;  justify-content: space-between;
+}
+.left{
+    width: 24%;
+    height: 1080px;
+    background-image: url('../images/yxxz-a4.png');
+    background-size: 100% 100%;
+}
+.left1{
+    margin-top: 107px;
+    display: flex;  justify-content: center;  align-items: center; 
+    flex-direction: column; 
+}
+.left1 ul{
+    margin-top: 35px;
+}
+.left1 ul li{
+    width: 110px;
+    border-bottom:1px solid #8c8c8c;
+}
+.left1 ul li a{
+    color:#1a1a1a;
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    margin-top: 43px;
+    padding-bottom: 14px;
+}
+.left1 ul li:hover{
+    border-bottom:1px solid #f93c04;
+}
+.left1 ul li a:hover{
+    color:#f93c04;
+}
+.left1 .left2{
+    border-bottom: 1px solid #f93c04;
+}
+.left1 .left2 a{
+    color:#f93c04;
+}
+/*  */
+.right1{
+    width: 100%;
+}
+/*banner*/
+.banner{
+    position: relative;
+    height: 516px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.banner>img{
+    width: 100%;
+    height: 516px;
+    position: absolute;
+    opacity: 0;
+    transition: all .5s;
+}
+.banner>img:first-child{
+    opacity: 1;
+}
+.banner>div:nth-child(4){
+    position: absolute;
+    width: 118px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 10;
+    top: 486px;
+    left: calc(50% - 59px)
+}
+.banner>div:nth-child(4)>a{
+    width: 40px;
+    height: 3px;
+    background: #fff;
+    margin-left: 10%;
+
+}
+.banner>div:nth-child(4)>a:first-child{
+    background: #8e0414;
+}
+.banner>div:last-child{
+    width: 95%;
+    position: absolute;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    top: 200px;
+    left: 2.5%;
+}
+.banner>div:last-child>a{
+    height: 68.5px;
+    width: 68px;
+    overflow: hidden;
+    display: none;
+}
+.banner>div:last-child>a:last-child>img{
+    margin-left: -68px;
+}
+.banner>div:last-child>a{
+    font-size: 50px;
+}
+.banner>div:last-child>a>img:hover{
+    margin-top: -68px;
+}
+/*  */
+.center{
+    width: 90%;
+    margin: 0 auto;
+}
+.center1{
+    width: 100%;
+}
+.center2{
+    display: flex;  justify-content:space-around;
+}
+.center4{
+    width: 50%;
+}
+.center5{
+    margin-top: 4%;
+    display: flex;  justify-content: space-between;
+}
+.center6{
+   display: flex;  
+   justify-content: center;  
+   /* align-items: center; */
+   margin-left: 10%;
+   flex-direction: column; 
+   text-align:left;
+}
+.center6 p{
+    width: 80%;
+    letter-spacing:2px;
+    font-size: 16px;
+}
+.center7{
+    width: 49%;
+}
+/*  */
+.case{
+    margin-top: 2%;
+}
+.case1{
+    margin-top: 2%;
+    padding-bottom: 2%;
+    display: flex;  justify-content: space-between;
+}
+.case2{
+    margin-left: 2%;
+    margin-top: 2%;
+}
+.case2 p{
+    margin-top: 2%;
+}
+/*  */
+.support{
+    padding-bottom: 2%;
+}
+.support0{
+padding-bottom: 2%;
+}
+.support1{
+    margin-top: 2%;
+    display: flex;  justify-content: space-between;
+}
+.support1 ul li{
+    margin-top: 4%;
+}
+.support1 .support2{
+    margin-top: 0;
+}
+/*  */
+.attract{
+    padding-bottom: 2%;
+}
+.attract0{
+    margin: 0 auto;
+    display: block;
+}
+.attract1{
+    display: flex;  justify-content: center;  align-items: center;
+}
+/*  */
+.footer{
+    width: 100%;
+    margin: 0 auto;
+}
+.footer1{
+    width: 100%;
+    display: block;
+}
+.footer2{
+    padding-bottom: 20px;
+    background-color: #000;
+}
+.footer2 ul{
+    width: 62.5%;
+    margin: 0 auto;
+    display: flex;  justify-content: center;  align-items: center;
+}
+.footer2 ul li{
+    border-left: 2px solid #2e2e2e;
+}
+.footer2 ul li a{
+    color:#2e2e2e;
+    margin: 0px 7px;
+}
+.footer2 .footer3{
+    border-left: 0px solid #2e2e2e;
+}
+
+.footer4{
+    width: 100%;
+    margin: 0 auto;
+    background-color: #000;
+    display: flex;  
+    justify-content: center;  align-items: center;
+}
+.footer4 span{
+    color:#fff;
+    font-size: 18px;
+}
+.footer4 input{
+    width: 185px;
+    height: 36px;
+    background-color: #fff;
+    border-radius: 8px;
+    margin-left: 6px;
+    margin-right: 6px;
+    outline:0;
+}
+.footer4 form{
+    margin-left: 40px;
+    display: flex;  justify-content: center;  align-items: center;
+}
+.footer4 .footer5{
+    height: 90px;
+    cursor:pointer;
+    background-color: rgba(255,0,0,0);
+}
