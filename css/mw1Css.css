@@ -1,0 +1,667 @@
+@charset "UTF-8";
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden; }
+
+.clearfix {
+  *zoom: 1; }
+
+html {
+  overflow-x: hidden; }
+
+ul {
+  margin: 0;
+  padding: 0; }
+
+li {
+  list-style: none; }
+
+p {
+  margin: 0; }
+
+.header_wrapper {
+  width: 100%;
+  height: 300px;
+  background-color: #000;
+  overflow: hidden; }
+  .header_wrapper .header {
+    width: 1300px;
+    height: 145px;
+    margin: 77px auto 0 auto; }
+    .header_wrapper .header .logo {
+      float: left;
+      margin-left: 80px; }
+    .header_wrapper .header .navi {
+      float: left;
+      width: 522px;
+      height: 145px;
+      margin-left: 192px; }
+      .header_wrapper .header .navi li {
+        float: left; }
+        .header_wrapper .header .navi li a {
+          display: block;
+          width: 25px;
+          height: 145px;
+          margin-right: 46px;
+          background: url("../images/navi.png") no-repeat; }
+          .header_wrapper .header .navi li a.contact {
+            background-position: 0 0; }
+            .header_wrapper .header .navi li a.contact:hover {
+              background-position: 0 -175px; }
+          .header_wrapper .header .navi li a.contactCur {
+            background-position: 0 -175px; }
+          .header_wrapper .header .navi li a.traditional {
+            background-position: -71px 0; }
+            .header_wrapper .header .navi li a.traditional:hover {
+              background-position: -71px -175px; }
+          .header_wrapper .header .navi li a.traditionalCur {
+            background-position: -71px -175px; }
+          .header_wrapper .header .navi li a.service {
+            background-position: -142px 0; }
+            .header_wrapper .header .navi li a.service:hover {
+              background-position: -142px -175px; }
+          .header_wrapper .header .navi li a.serviceCur {
+            background-position: -142px -175px; }
+          .header_wrapper .header .navi li a.investment {
+            background-position: -213px 0; }
+            .header_wrapper .header .navi li a.investment:hover {
+              background-position: -213px -175px; }
+          .header_wrapper .header .navi li a.investmentCur {
+            background-position: -213px -175px; }
+          .header_wrapper .header .navi li a.brand {
+            background-position: -284px 0; }
+            .header_wrapper .header .navi li a.brand:hover {
+              background-position: -284px -175px; }
+          .header_wrapper .header .navi li a.brandCur {
+            background-position: -284px -175px; }
+          .header_wrapper .header .navi li a.product {
+            background-position: -355px 0; }
+            .header_wrapper .header .navi li a.product:hover {
+              background-position: -355px -175px; }
+          .header_wrapper .header .navi li a.productCur {
+            background-position: -355px -175px; }
+          .header_wrapper .header .navi li a.hot {
+            background-position: -426px 0; }
+            .header_wrapper .header .navi li a.hot:hover {
+              background-position: -426px -175px; }
+          .header_wrapper .header .navi li a.hotCur {
+            background-position: -426px -175px; }
+          .header_wrapper .header .navi li a.strength {
+            margin-right: 0;
+            background-position: -497px 0; }
+            .header_wrapper .header .navi li a.strength:hover {
+              background-position: -497px -175px; }
+          .header_wrapper .header .navi li a.strengthCur {
+            margin-right: 0;
+            background-position: -497px -175px; }
+    .header_wrapper .header .slogan {
+      float: right;
+      margin-right: 80px; }
+
+.banner_wrapper {
+  width: 100%;
+  height: 470px;
+  font-family: "Microsoft YaHei";
+  color: #fff;
+  font-size: 32px;
+  text-align: center;
+  overflow: hidden;
+  margin-bottom: 60px; }
+  .banner_wrapper .banner {
+    width: 1300px;
+    margin: 178px auto 0 auto; }
+    .banner_wrapper .banner p:first-child {
+      font-size: 40px;
+      margin-bottom: 25px; }
+
+.bw1 {
+  background: url("../images/bw1.jpg") no-repeat center top; }
+
+.bw2 {
+  background: url("../images/bw2.jpg") no-repeat center top; }
+
+.bw3 {
+  background: url("../images/bw3.jpg") no-repeat center top; }
+
+.bw4 {
+  background: url("../images/bw4.jpg") no-repeat center top; }
+
+.bw5 {
+  background: url("../images/bw5.jpg") no-repeat center top; }
+
+.bw6 {
+  background: url("../images/bw6.jpg") no-repeat center top; }
+
+.bw7 {
+  background: url("../images/bw7.jpg") no-repeat center top; }
+
+.bw8 {
+  background: url("../images/bw8.jpg") no-repeat center top; }
+
+.title {
+  width: 1300px;
+  height: 33px;
+  margin: 0 auto 80px auto;
+  background: url("../images/titleImg.png") no-repeat; }
+
+.title2 {
+  background-position: 0 -33px; }
+
+.title3 {
+  background-position: 0 -66px; }
+
+.title4 {
+  background-position: 0 -99px; }
+
+.title5 {
+  background-position: 0 -132px; }
+
+.title6 {
+  background-position: 0 -165px; }
+
+.title7 {
+  background-position: 0 -198px; }
+
+.title8 {
+  background-position: 0 -231px; }
+
+.footer_wrapper {
+  width: 100%;
+  height: 264px;
+  background-color: #000;
+  margin-top: 70px; }
+  .footer_wrapper .footer {
+    width: 1140px;
+    height: 264px;
+    background: url("../images/footer.png") no-repeat;
+    margin: 0 auto; }
+
+.main_content {
+  width: 1300px;
+  margin: 0 auto; }
+
+/*——————————————————————swiper——————————————————————*/
+.swiper-container {
+  width: 100%;
+  height: 1000px; }
+  .swiper-container .swiper-pagination {
+    top: 60px;
+    right: 30px; }
+  .swiper-container .swiper-slide {
+    position: relative;
+    width: 1300px;
+    margin: 0 auto; }
+    .swiper-container .swiper-slide img {
+      position: absolute; }
+    .swiper-container .swiper-slide .focus1_img01 {
+      left: 32px;
+      top: 110px; }
+    .swiper-container .swiper-slide .focus1_img02 {
+      left: 231px;
+      top: 110px; }
+    .swiper-container .swiper-slide .focus1_img03 {
+      left: 428px;
+      top: 110px; }
+    .swiper-container .swiper-slide .focus1_img04 {
+      right: 23px;
+      top: 110px; }
+    .swiper-container .swiper-slide .focus1_img05 {
+      left: 50%;
+      margin-left: -960px;
+      top: 390px; }
+    .swiper-container .swiper-slide .focus2_img01 {
+      left: 416px;
+      top: 85px; }
+    .swiper-container .swiper-slide .focus2_img02 {
+      left: 319px;
+      top: 239px; }
+    .swiper-container .swiper-slide .focus2_img03 {
+      left: 0;
+      top: 312px; }
+    .swiper-container .swiper-slide .focus2_img04 {
+      left: 427px;
+      top: 352px; }
+    .swiper-container .swiper-slide .focus2_img05 {
+      left: 50%;
+      margin-left: -960px;
+      bottom: 0; }
+    .swiper-container .swiper-slide .focus3_img01 {
+      left: 365px;
+      top: 85px; }
+    .swiper-container .swiper-slide .focus3_img02 {
+      left: 308px;
+      top: 238px; }
+    .swiper-container .swiper-slide .focus3_img03 {
+      left: 0;
+      top: 312px; }
+    .swiper-container .swiper-slide .focus3_img04 {
+      left: 368px;
+      top: 353px; }
+    .swiper-container .swiper-slide .focus3_img05 {
+      left: 484px;
+      top: 560px; }
+    .swiper-container .swiper-slide .focus3_img06 {
+      left: 0;
+      top: 583px; }
+    .swiper-container .swiper-slide .focus3_img07 {
+      left: 250px;
+      top: 583px; }
+    .swiper-container .swiper-slide .focus3_img08 {
+      right: 250px;
+      top: 583px; }
+    .swiper-container .swiper-slide .focus3_img09 {
+      right: 0;
+      top: 583px; }
+    .swiper-container .swiper-slide .focus4_img01 {
+      left: 406px;
+      top: 85px; }
+    .swiper-container .swiper-slide .focus4_img02 {
+      left: 319px;
+      top: 239px; }
+    .swiper-container .swiper-slide .focus4_img03 {
+      left: 0;
+      top: 312px; }
+    .swiper-container .swiper-slide .focus4_img04 {
+      left: 375px;
+      top: 353px; }
+    .swiper-container .swiper-slide .focus4_img05 {
+      left: 115px;
+      top: 715px; }
+    .swiper-container .swiper-slide .focus4_img06 {
+      left: 229px;
+      top: 670px;
+      z-index: 2; }
+    .swiper-container .swiper-slide .focus4_img07 {
+      left: 365px;
+      top: 645px;
+      z-index: 3; }
+    .swiper-container .swiper-slide .focus4_img08 {
+      left: 538px;
+      top: 617px;
+      z-index: 4; }
+    .swiper-container .swiper-slide .focus4_img09 {
+      right: 365px;
+      top: 641px;
+      z-index: 3; }
+    .swiper-container .swiper-slide .focus4_img10 {
+      right: 229px;
+      top: 679px;
+      z-index: 2; }
+    .swiper-container .swiper-slide .focus4_img11 {
+      right: 115px;
+      top: 718px; }
+    .swiper-container .swiper-slide .focus5_img01 {
+      left: 427px;
+      top: 85px; }
+    .swiper-container .swiper-slide .focus5_img02 {
+      left: 284px;
+      top: 238px; }
+    .swiper-container .swiper-slide .focus5_img03 {
+      left: 0;
+      top: 312px; }
+    .swiper-container .swiper-slide .focus5_img04 {
+      left: 462px;
+      top: 352px; }
+    .swiper-container .swiper-slide .focus5_img05 {
+      left: 50%;
+      margin-left: -960px;
+      bottom: 0; }
+
+/*——————————————————————联系我们——————————————————————*/
+.contact .box1 {
+  width: 840px;
+  height: 536px;
+  margin: 0 auto 100px auto;
+  background: url("../images/contactImg01.jpg") no-repeat; }
+  .contact .box1 video {
+    margin: 11px 0 0 12px; }
+.contact .box2 .oneImg {
+  float: left;
+  margin-left: 60px; }
+.contact .box2 .twoImg {
+  float: left;
+  margin: 70px 0 0 90px; }
+
+/*——————————————————————十年正宗——————————————————————*/
+.traditional .box1 {
+  margin-bottom: 100px; }
+  .traditional .box1 .oneImg {
+    float: left;
+    margin: 84px 0 0 20px; }
+  .traditional .box1 .twoImg {
+    float: left;
+    margin: 120px 0 0 50px; }
+  .traditional .box1 .threeImg {
+    float: right; }
+.traditional .box2 {
+  margin-bottom: 100px; }
+  .traditional .box2 .oneImg {
+    float: left; }
+  .traditional .box2 .twoImg {
+    float: left;
+    margin: 118px 0 0 40px; }
+  .traditional .box2 .threeImg {
+    float: right;
+    margin: 80px 20px 0 0; }
+.traditional .box3 {
+  position: relative; }
+  .traditional .box3 .oneImg {
+    position: absolute;
+    left: 20px;
+    top: 0; }
+  .traditional .box3 .twoImg {
+    padding-top: 100px;
+    margin-bottom: 50px; }
+    .traditional .box3 .twoImg div {
+      text-align: center;
+      margin-bottom: 15px; }
+
+/*——————————————————————服务保障——————————————————————*/
+.service .box1 {
+  margin-bottom: 100px; }
+  .service .box1 .oneImg {
+    float: left;
+    margin-left: 20px; }
+  .service .box1 .twoImg {
+    float: left;
+    margin-left: 40px; }
+  .service .box1 .threeImg {
+    float: right;
+    margin-right: 20px; }
+.service .box2 {
+  margin-bottom: 100px; }
+  .service .box2 .oneImg {
+    float: left;
+    margin-left: 20px; }
+  .service .box2 .twoImg {
+    float: left;
+    margin-left: 40px; }
+  .service .box2 .threeImg {
+    float: right;
+    margin-right: 20px; }
+.service .box3 {
+  margin-bottom: 100px; }
+  .service .box3 .oneImg {
+    float: left;
+    margin-left: 20px; }
+  .service .box3 .twoImg {
+    float: left;
+    margin-left: 40px; }
+  .service .box3 .threeImg {
+    float: right;
+    margin-right: 20px; }
+.service .box4 .oneImg, .service .box4 .twoImg {
+  text-align: center;
+  margin-bottom: 50px; }
+
+/*——————————————————————投资盈利——————————————————————*/
+.investment .box1 {
+  text-align: center;
+  margin-bottom: 40px; }
+  .investment .box1 .oneImg {
+    margin-bottom: 25px; }
+.investment .box2, .investment .box3, .investment .box4 {
+  margin-bottom: 100px; }
+  .investment .box2 .oneImg, .investment .box3 .oneImg, .investment .box4 .oneImg {
+    float: left;
+    margin-left: 30px; }
+  .investment .box2 .twoImg, .investment .box3 .twoImg, .investment .box4 .twoImg {
+    float: right;
+    margin-right: 30px; }
+.investment .box5 {
+  text-align: center;
+  margin-bottom: 100px; }
+  .investment .box5 .oneImg {
+    margin-bottom: 25px; }
+  .investment .box5 .twoImg {
+    margin-bottom: 35px; }
+.investment .box6 {
+  text-align: center; }
+  .investment .box6 .oneImg {
+    margin-bottom: 50px; }
+
+/*——————————————————————品牌形象——————————————————————*/
+.brand .box1 {
+  margin-bottom: 100px; }
+  .brand .box1 .oneImg {
+    float: left;
+    margin: 108px 0 0 60px; }
+  .brand .box1 .twoImg {
+    float: right; }
+.brand .box2 {
+  margin-bottom: 80px; }
+  .brand .box2 .oneImg {
+    float: left; }
+  .brand .box2 .twoImg {
+    float: right;
+    margin: 47px 60px 0 0; }
+.brand .box3 {
+  position: relative;
+  margin-bottom: 40px;
+  padding-bottom: 90px; }
+  .brand .box3 .oneImg {
+    float: left;
+    margin: 40px 0 0 60px; }
+  .brand .box3 .twoImg {
+    position: absolute;
+    left: 470px;
+    top: 0; }
+  .brand .box3 .threeImg {
+    position: absolute;
+    right: 30px;
+    top: 10px; }
+  .brand .box3 .fourImg {
+    position: absolute;
+    right: 0;
+    bottom: 0; }
+.brand .box4 {
+  position: relative; }
+  .brand .box4 .oneImg {
+    float: left;
+    margin-left: 20px; }
+  .brand .box4 .twoImg {
+    position: absolute;
+    left: 500px;
+    top: 70px; }
+  .brand .box4 .threeImg {
+    position: absolute;
+    left: 580px;
+    bottom: -17px; }
+  .brand .box4 .fourImg {
+    float: right;
+    margin: 180px 50px 0 0; }
+
+/*——————————————————————产品展示——————————————————————*/
+.product .box1, .product .box2, .product .box3, .product .box4 {
+  margin-bottom: 100px;
+  text-align: center; }
+  .product .box1 .oneImg, .product .box2 .oneImg, .product .box3 .oneImg, .product .box4 .oneImg {
+    margin-bottom: 30px; }
+.product .box3 {
+  position: relative; }
+  .product .box3 .leftArrow, .product .box3 .rightArrow {
+    position: absolute;
+    width: 25px;
+    height: 80px;
+    background: url("../images/arrow.png") no-repeat;
+    bottom: 76px;
+    cursor: pointer; }
+  .product .box3 .leftArrow {
+    left: 0; }
+    .product .box3 .leftArrow:hover {
+      background-position: -25px -0; }
+  .product .box3 .rightArrow {
+    right: 0;
+    background-position: 0 -80px; }
+    .product .box3 .rightArrow:hover {
+      background-position: -25px -80px; }
+.product .box3 .twoImg {
+  padding-left: 30px; }
+  .product .box3 .twoImg .ti_one div, .product .box3 .twoImg .ti_two div, .product .box3 .twoImg .ti_three div {
+    margin: 0 5px; }
+  .product .box3 .twoImg .ti_two, .product .box3 .twoImg .ti_three {
+    display: none; }
+  .product .box3 .twoImg .a1 {
+    background: url("../images/productImg06_01_big.jpg") no-repeat center center;
+    background-size: contain;
+    float: left; }
+  .product .box3 .twoImg .a2 {
+    background: url("../images/productImg06_02_big.jpg") no-repeat center center;
+    background-size: contain;
+    float: left; }
+  .product .box3 .twoImg .a3 {
+    background: url("../images/productImg06_03_big.jpg") no-repeat center center;
+    background-size: contain;
+    float: left; }
+  .product .box3 .twoImg .a4 {
+    background: url("../images/productImg06_04_big.jpg") no-repeat center center;
+    background-size: contain;
+    float: left; }
+  .product .box3 .twoImg .a5 {
+    background: url("../images/productImg06_05_big.jpg") no-repeat center center;
+    background-size: contain;
+    float: left; }
+  .product .box3 .twoImg .a6 {
+    background: url("../images/productImg06_06_big.jpg") no-repeat center center;
+    background-size: contain;
+    float: left; }
+  .product .box3 .twoImg .a7 {
+    background: url("../images/productImg06_07_big.jpg") no-repeat center center;
+    background-size: contain;
+    float: left; }
+  .product .box3 .twoImg .a8 {
+    background: url("../images/productImg06_08_big.jpg") no-repeat center center;
+    background-size: contain;
+    float: left; }
+  .product .box3 .twoImg .a10 {
+    background: url("../images/productImg06_10_big.jpg") no-repeat center center;
+    background-size: contain;
+    float: left; }
+  .product .box3 .twoImg .a11 {
+    background: url("../images/productImg06_11_big.jpg") no-repeat center center;
+    background-size: contain;
+    float: left; }
+  .product .box3 .twoImg .a12 {
+    background: url("../images/productImg06_12_big.jpg") no-repeat center center;
+    background-size: contain;
+    float: left; }
+  .product .box3 .twoImg .a13 {
+    background: url("../images/productImg06_13_big.jpg") no-repeat center center;
+    background-size: contain;
+    float: left; }
+  .product .box3 .twoImg img {
+    width: 300.2px;
+    height: 243.2px; }
+.product .box5 .oneImg {
+  margin-bottom: 50px; }
+.product .box5 .twoImg {
+  position: relative;
+  margin-bottom: 8px; }
+  .product .box5 .twoImg .product_box5_img1 {
+    position: absolute;
+    left: 260px;
+    top: 85px; }
+  .product .box5 .twoImg .product_box5_img2 {
+    position: absolute;
+    left: 470px;
+    bottom: 35px; }
+
+/*——————————————————————爆品密探——————————————————————*/
+.hot .box1 {
+  text-align: center; }
+  .hot .box1 .oneImg {
+    margin-bottom: 30px; }
+.hot .box2 {
+  padding-left: 380px; }
+  .hot .box2 .oneImg {
+    margin-bottom: 10px; }
+.hot .box3 {
+  text-align: center; }
+  .hot .box3 .oneImg {
+    margin-bottom: 70px; }
+
+/*——————————————————————实力公司——————————————————————*/
+.strength .box1, .strength .box2, .strength .box3 {
+  margin-bottom: 100px;
+  text-align: center; }
+  .strength .box1 .oneImg, .strength .box2 .oneImg, .strength .box3 .oneImg {
+    margin-bottom: 60px; }
+.strength .box4 {
+  overflow: hidden;
+  margin-bottom: 100px;
+  text-align: center; }
+  .strength .box4 .oneImg {
+    margin-bottom: 60px; }
+  .strength .box4 .twoImg {
+    margin-right: -30px; }
+    .strength .box4 .twoImg img {
+      display: block;
+      float: left;
+      margin: 0 30px; }
+.strength .box5 {
+  margin-bottom: 100px;
+  text-align: center; }
+  .strength .box5 .oneImg {
+    margin-bottom: 60px; }
+  .strength .box5 .twoImg {
+    position: relative; }
+    .strength .box5 .twoImg .strength_box5_img2 {
+      position: absolute;
+      right: 182px;
+      bottom: 160px; }
+    .strength .box5 .twoImg .strength_box5_img3 {
+      position: absolute;
+      right: 192px;
+      bottom: 90px; }
+.strength .box6 {
+  margin-bottom: 100px;
+  text-align: center; }
+  .strength .box6 .oneImg {
+    margin-bottom: 60px; }
+  .strength .box6 .twoImg, .strength .box6 .threeImg, .strength .box6 .fourImg {
+    margin-bottom: 10px; }
+.strength .box7 {
+  text-align: center; }
+  .strength .box7 .oneImg {
+    margin-bottom: 60px; }
+  .strength .box7 .twoImg {
+    position: relative;
+    height: 747px;
+    overflow: hidden; }
+    .strength .box7 .twoImg .strength_box7_img1 {
+      position: absolute;
+      left: 70px;
+      top: 168px; }
+    .strength .box7 .twoImg .strength_box7_img2 {
+      position: absolute;
+      left: 367px;
+      top: 168px; }
+    .strength .box7 .twoImg .strength_box7_img3 {
+      position: absolute;
+      left: 662px;
+      top: 0; }
+    .strength .box7 .twoImg .strength_box7_img4 {
+      position: absolute;
+      right: 0;
+      top: 102px; }
+    .strength .box7 .twoImg .strength_box7_img5 {
+      position: absolute;
+      left: 6px;
+      top: 372px; }
+    .strength .box7 .twoImg .strength_box7_img6 {
+      position: absolute;
+      left: 336px;
+      top: 372px; }
+    .strength .box7 .twoImg .strength_box7_img7 {
+      position: absolute;
+      right: 115px;
+      top: 372px; }
+    .strength .box7 .twoImg .strength_box7_img8 {
+      position: absolute;
+      right: 115px;
+      bottom: 0; }
+
+/*# sourceMappingURL=mw1Css.css.map */

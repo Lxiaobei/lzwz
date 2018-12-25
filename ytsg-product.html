@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>与TA时光-产品展示</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="与TA时光 是秦皇岛麦翁餐饮管理有限公司旗下项目,以人性化的管理和强势的品牌形象、过硬的产品品质,备受广大消费者的好评。">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/zoomify.min.css">
+    <link rel="stylesheet" href="css/mw1Css.css">
+</head>
+<style>
+    body {
+        background-color: #fff;
+    }
+</style>
+
+<body>
+    <div class="header_wrapper">
+        <div class="header clearfix">
+            <div class="logo wow flipInY" data-wow-duration="1s">
+                <a href="ytsg.html"><img src="images/ytsg-logo.png" alt="与TA时光"></a></div>
+            <ul class="navi clearfix">
+                <li><a class="contact" href="ytsg-contact.html"></a></li>
+                <li><a class="traditional" href="ytsg-traditional.html"></a></li>
+                <li><a class="service" href="ytsg-service.html"></a></li>
+                <li><a class="investment" href="ytsg-investment.html"></a></li>
+                <li><a class="brand" href="ytsg-brand.html"></a></li>
+                <li><a class="product" href="ytsg-product.html"></a></li>
+                <li><a class="hot" href="ytsg-hot.html"></a></li>
+                <li><a class="strength" href="ytsg-strength.html"></a></li>
+            </ul>
+            <div class="slogan"><img src="images/slogan.png" alt="10年手作"></div>
+        </div>
+    </div>
+    <div class="banner_wrapper bw6">
+        <div class="banner">
+            <p class="wow fadeInDown" data-wow-duration="0.5s"> </p>
+            <p class="wow fadeInUp" data-wow-delay="0.5s" data-wow-duration="0.5s"> </p>
+        </div>
+    </div>
+    <div class="title title6"></div>
+    <div class="main_content product">
+        <div class="box1">
+            <div class="oneImg wow fadeInUp"><img src="images/productImg01.png"></div>
+            <div class="twoImg wow fadeInUp" data-wow-delay="0.3s"><img src="images/productImg02.jpg"></div>
+        </div>
+        <div class="box2">
+            <div class="oneImg wow fadeInUp"><img src="images/productImg03.png"></div>
+            <div class="twoImg wow fadeInUp" data-wow-delay="0.3s"><img src="images/productImg04.jpg"></div>
+        </div>
+        <div class="box3">
+            <div class="oneImg wow fadeInUp" data-wow-delay="0.3s"><img src="images/productImg05.png"></div>
+            <div class="twoImg">
+                <div class="ti_one clearfix">
+                    <div class="a1"><img src="images/productImg06_01_big.jpg"></div>
+                    <div class="a2"><img src="images/productImg06_02_big.jpg"></div>
+                    <div class="a3"><img src="images/productImg06_03_big.jpg"></div>
+                    <div class="a4"><img src="images/productImg06_04_big.jpg"></div>
+                </div>
+                <div class="ti_two clearfix">
+                    <div class="a5"><img src="images/productImg06_05_big.jpg"></div>
+                    <div class="a6"><img src="images/productImg06_06_big.jpg"></div>
+                    <div class="a7"><img src="images/productImg06_07_big.jpg"></div>
+                    <div class="a8"><img src="images/productImg06_08_big.jpg"></div>
+                </div>
+                <div class="ti_three clearfix">
+                    <div class="a10"><img src="images/productImg06_10_big.jpg"></div>
+                    <div class="a11"><img src="images/productImg06_11_big.jpg"></div>
+                    <div class="a12"><img src="images/productImg06_12_big.jpg"></div>
+                    <div class="a13"><img src="images/productImg06_13_big.jpg"></div>
+                </div>
+            </div>
+            <div class="leftArrow"></div>
+            <div class="rightArrow"></div>
+        </div>
+        <div class="box4">
+            <div class="oneImg wow fadeInUp"><img src="images/productImg07.png"></div>
+            <div class="twoImg wow fadeInUp" data-wow-delay="0.3s"><img src="images/productImg08.jpg"></div>
+        </div>
+        <div class="box5">
+            <div class="oneImg wow fadeInUp"><img src="images/productImg09.png"></div>
+            <div class="twoImg">
+                <img src="images/productImg10.jpg"><img src="images/productImg11.png" class="product_box5_img1 wow fadeInLeft"
+                    data-wow-delay="0.3s" data-wow-duration="0.5s"><img src="images/productImg12.png" class="product_box5_img2 wow fadeInRight"
+                    data-wow-duration="0.5s" data-wow-delay="0.5s">
+            </div>
+            <div class="threeImg wow fadeInUp" data-wow-delay="0.3s"><img src="images/productImg13.jpg"></div>
+        </div>
+    </div>
+    <!-- <div class="footer_wrapper">
+        <div class="footer"></div>
+    </div> -->
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/zoomify.min.js"></script>
+    <script src="js/mw1Js.js"></script>
+    <script>
+        $(function () {
+            var ti_one = $(".ti_one");
+            var ti_two = $(".ti_two");
+            var ti_three = $(".ti_three");
+            var img = $('.box3 .twoImg img');
+            var rightArrow = $(".rightArrow");
+            var time2 = setInterval(function () {
+                rightArrow.click();
+            }, 2500);
+            img.zoomify();
+            img.on('zoom-in.zoomify', function () {
+                clearInterval(time2);
+            }).on('zoom-out.zoomify', function () {
+                time2 = setInterval(function () {
+                    $(".rightArrow").click();
+                }, 3000);
+            });
+            rightArrow.click(function () {
+                if (ti_one.is(":visible")) {
+                    ti_one.hide();
+                    ti_two.fadeIn();
+                }
+                else if (ti_two.is(":visible")) {
+                    ti_two.hide();
+                    ti_three.fadeIn();
+                }
+                else if (ti_three.is(":visible")) {
+                    ti_three.hide();
+                    ti_one.fadeIn();
+                }
+            }).hover(function () {
+                clearInterval(time2);
+            }, function () {
+                time2 = setInterval(function () {
+                    rightArrow.click();
+                }, 3000);
+            });
+            $(".leftArrow").click(function () {
+                if (ti_one.is(":visible")) {
+                    ti_one.hide();
+                    ti_three.fadeIn();
+                }
+                else if (ti_three.is(":visible")) {
+                    ti_three.hide();
+                    ti_two.fadeIn();
+                }
+                else if (ti_two.is(":visible")) {
+                    ti_two.hide();
+                    ti_one.fadeIn();
+                }
+            }).hover(function () {
+                clearInterval(time2);
+            }, function () {
+                time2 = setInterval(function () {
+                    rightArrow.click();
+                }, 3000);
+            });
+        });
+    </script>
+</body>
+
+</html>
