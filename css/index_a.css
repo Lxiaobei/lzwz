@@ -8,9 +8,13 @@ body{
     border-bottom: 1px solid #ccc;
     z-index: 999;
 }
+.kong{
+    width: 5%;
+    /* height: 100%; */
+}
 .dingbu_a{
+    /* width: 90%; */
     display: flex;  justify-content: space-between;
-    width: 90%;
     margin: 0 auto;
 }
 .dingbu_b,.dingbu_c,.dingbu_d{
@@ -171,7 +175,7 @@ body{
 }
 iframe{
     width: 81vw;
-    height: 83vh;
+    height: 82.8vh;
 }
 /*  */
 .footer1{   
