@@ -313,6 +313,7 @@ span:hover {
     display: block;
 }
 .footer2{
+    padding-top: 20px;
     padding-bottom: 20px;
     background-color: #000;
 }

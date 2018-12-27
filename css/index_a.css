@@ -13,7 +13,7 @@ body{
     /* height: 100%; */
 }
 .dingbu_a{
-    /* width: 90%; */
+    width: 90%;
     display: flex;  justify-content: space-between;
     margin: 0 auto;
 }
@@ -50,7 +50,7 @@ body{
     font-size: 20px;
     font-weight: 600;
     position: absolute;
-    left: 32%;
+    left: 30%;
     top: 20%;
 }
 /*  */
@@ -62,8 +62,8 @@ body{
 .dingbu_n{
     cursor: pointer;
     display: flex;  justify-content: center; 
-    padding-bottom: 3px;
-    padding-top: 3px;
+    padding-bottom: 5px;
+    padding-top: 5px;
 }
 .dingbu_m:hover{
     border-left:1px solid #717171;
@@ -175,13 +175,13 @@ body{
 }
 iframe{
     width: 81vw;
-    height: 82.8vh;
+    height: 83vh;
 }
 /*  */
 .footer1{   
     background-color: #333333;
-    padding-top: 2px;
-    padding-bottom: 1px;
+    padding-top: 4px;
+    padding-bottom: 4px;
 }
 .footer1 img{
     width: 12%;
@@ -264,7 +264,7 @@ iframe{
     background-color: #8c8c8c;
 }
 .shangxialunbo1{
-    margin: 2px 0;
+    margin: 5px 0;
 }
 .shangxialunbo2 ul{
     height: 70vh;
