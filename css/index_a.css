@@ -129,7 +129,7 @@ body{
     margin: 0 auto;
 }
 .nav_a{
-    width: 90%;
+    width: 89%;
     margin: 0 auto;
     display: flex;  justify-content: space-between;
     background-color: #080808;
@@ -180,8 +180,8 @@ iframe{
 /*  */
 .footer1{   
     background-color: #333333;
-    padding-top: 4px;
-    padding-bottom: 4px;
+    /* padding-top: 4px;
+    padding-bottom: 4px; */
 }
 .footer1 img{
     width: 12%;
@@ -195,11 +195,11 @@ iframe{
     display: flex;  justify-content: center;  align-items: center; 
 }
 .footer6 .footer3{
-    font-size: 20px;
+    font-size: 22px;
     border-radius: 10px;
     background-color: #717171;
-    padding: 5px;
-    letter-spacing:2px;
+    padding: 8px;
+    letter-spacing: 2px;
     font-weight: 800;
 }
 .footer2 span{
@@ -226,7 +226,7 @@ iframe{
 .footer4 img{
     width: 10%;
     padding-right: 10%;
-    margin-top: 2%;
+    margin-top: 6%;
 }
 /*  */
 .weixin{
@@ -264,10 +264,10 @@ iframe{
     background-color: #8c8c8c;
 }
 .shangxialunbo1{
-    margin: 5px 0;
+    margin: 8px 0;
 }
 .shangxialunbo2 ul{
-    height: 70vh;
+    height: 69vh;
     overflow-y: scroll;
 }
 .shangxialunbo2 ul::-webkit-scrollbar {/*滚动条整体样式*/
