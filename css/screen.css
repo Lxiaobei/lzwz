@@ -1002,9 +1002,9 @@ ul.sitemap-list li dd{ display:block;width:100%;}
     /*top: 300px;*/
     top: 115px;
   }
-  /* .index-ann .line-1{
+  .index-ann .line-1{
     top: 580px;
-  } */
+  }
   .index-ann .img-1{
     top: 290px;
   }
@@ -1305,7 +1305,7 @@ ul.sitemap-list li dd{ display:block;width:100%;}
   .index-ann .line-2 {
     display: block;
     position: absolute;
-    /* top: 800px; */
+    top: 800px;
     left: 50%;
     margin-left: 335px;
   }
@@ -1589,12 +1589,12 @@ ul.sitemap-list li dd{ display:block;width:100%;}
     top: 285px;
   }
 
-  /* .index-ann .line-1{
+  .index-ann .line-1{
     top: 570px;
-  } */
-  /* .index-ann .line-2{
+  }
+  .index-ann .line-2{
     top: 765px;
-  } */
+  }
   .index-ann .img-2,
   .index-ann .img-1{
     top: 0px;

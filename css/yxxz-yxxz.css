@@ -75,7 +75,7 @@
     width: 100%;
     margin: 0 auto;
     background-size:100% 100%; 
-    /* background-image: url('../images/yxxz-11.png'); */
+    background-image: url('../images/yxxz-11.png');
 }
 .exhibition1{
     width: 88%;
@@ -99,7 +99,7 @@
 /*  */
 .about_us{
     width: 100%;
-    /* background-image: url('../images/yxxz-13.png'); */
+    background-image: url('../images/yxxz-13.png');
     background-size:100% 100%; 
 }
 .about{
@@ -132,7 +132,7 @@
 .news{
     width: 100%;
     margin: 0 auto;
-    /* background-image: url('../images/yxxz-11.png'); */
+    background-image: url('../images/yxxz-11.png');
     background-size:100% 100%; 
 }
 .news1{
@@ -149,7 +149,7 @@
 .news4{
     display: flex;  justify-content: center;  align-items: center;
     flex-direction: column;  
-    margin-left: 50px;
+    margin-left: 40px;
 }
 .news3 p{
     text-decoration:underline;
@@ -168,7 +168,7 @@
     -webkit-line-clamp:2;/*鏄剧ず鍑犺*/
 }
 .join{
-    width: 105%;
+    width: 100%;
     margin: 0 auto;
     display: flex;  justify-content:center;	
     margin-top: 4%;
@@ -197,6 +197,8 @@
     display:-webkit-box;/*璇ュ睘鎬т細灏嗘鍏冪礌鍙婂叾鐩寸郴瀛愪唬鍔犲叆寮规€ф妯″瀷涓�*/
     -webkit-box-orient:vertical;/*姘村钩鎺掑垪 div 鍏冪礌鐨勫瓙鍏冪礌*/
     -webkit-line-clamp:2;/*鏄剧ず鍑犺*/ 
+    font-size: 14px;
+    width: 70%;
 }
 /*  */
 .footer{

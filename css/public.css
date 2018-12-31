@@ -49,8 +49,8 @@ td {
   border-collapse: collapse;
 }
 img {
-  display: block;
-  width: 100%;
+  /* display: block; */
+  /* width: 100%; */
   max-width: 100%;
   -webkit-transition: box-shadow 0.2s;
   -moz-transition: box-shadow 0.2s;
@@ -2714,7 +2714,7 @@ ul.sitemap-list li{
   top: 22%;
 }
 .zero11 img{
-  width: 77%;
+  width: 89%;
 }
 .zero12{
   width: 80%;
@@ -2821,5 +2821,5 @@ ul.sitemap-list li{
   font-family: SketchRockwell;
   }
   .banner-header{
-    top:700px;
+    top:545px;
   }

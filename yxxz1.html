@@ -8,12 +8,12 @@
 	<title>印象小煮</title>
 	<meta name="description" content="">
 	<meta name="keywords" content="">
+	<link rel="stylesheet" href="./css/yxxz.css">
+	<link rel="stylesheet" href="./css/c.css">
 	<link rel="stylesheet" href="css/publica.css" />
 	<link rel="stylesheet" href="css/screena.css" />
 	<script src="js/jquery-2.2.1.min.js"></script>
 	<script src="js/modernizr-2.8.3.min.js"></script>
-	<script src="js/easyXDM-2.4.19.3.min.js"></script>
-	<!-- <script src="https://use.typekit.net/mqk3cpz.js"></script> -->
 	<script src="js/mqk3cpz.js"></script>
 	<script>try { Typekit.load({ async: true }); } catch (e) { }</script>
 	<script>
@@ -22,10 +22,36 @@
 			eval(targ + ".location='" + selObj.options[selObj.selectedIndex].value + "'");
 			if (restore) selObj.selectedIndex = 0;
 		}
-		// $(function () {
-		// 	console.log($(window).width());
-		// });
 	</script>
+	<style>
+		.myscroll {
+			width: 1000px;
+			height: 260px;
+			margin: 0 auto;
+			line-height: 26px;
+			font-size: 12px;
+			overflow: hidden;
+			margin-left: 10%;
+		}
+
+		.myscroll li {
+			height: 26px;
+			margin-left: 25px;
+		}
+
+		.myscroll a {
+			color: #333;
+			text-decoration: none;
+		}
+
+		.myscroll a:hover {
+			color: #ED5565;
+			text-decoration: underline;
+		}
+		.img-wrap img{
+			width: 100%;
+		}
+	</style>
 </head>
 
 <body id="ver-sc">
@@ -43,26 +69,6 @@
 					<img src="images/ima_50.png">
 				</a>
 			</div>
-			<!-- <div class="head-right head-right-ph">
-				<div class="stock-wrap">
-					<a href="javascript:;" class="stock-menu"></a>
-					<div class="stock-box">
-						<div id="stockFrame"></div>
-						<script type="text/javascript">
-							new easyXDM.Socket({
-								remote: "http://charts3.equitystory.com/teaser/xiaonanguo/ChineseSimple",
-								swf: 'easyxdm.swf',
-								container: 'stockFrame',
-								onMessage: function (message, origin) {
-									this.container.getElementsByTagName('iframe')[0].style.height = message + 'px';
-									this.container.getElementsByTagName('iframe')[0].scrolling = 'no';
-									this.container.getElementsByTagName("iframe")[0].style.width = "100%";
-								}
-							});
-						</script>
-					</div>
-				</div>
-			</div> -->
 			<div class="nav-wrap">
 				<div class="nav-box clearfix">
 					<div class="close-wrap">
@@ -79,58 +85,52 @@
 								<a href="ppyx.html">品牌院线</a>
 								<dl>
 									<dd>
-										<a href="ppyx.html">品牌介绍</a>
+										<a href="ppyx.html">企业简介</a>
 									</dd>
 									<dd>
-										<a href="ppyx.html">品牌产品</a>
+										<a href="ppyx.html">品牌荣誉</a>
 									</dd>
-
 									<dd>
-										<a href="ppyx.html">品牌定位</a>
+										<a href="ppyx.html">品牌故事</a>
 									</dd>
-
 								</dl>
 							</li>
 							<li>
 								<a href="sd.html">店铺展示</a>
 								<dl>
 									<dd>
-										<a href="sd.html">店铺展示</a>
+										<a href="sd.html">门店展示</a>
 									</dd>
-
 								</dl>
 							</li>
 							<li>
 								<a href="lc.html">招商专区</a>
 								<dl>
 									<dd>
-										<a href="lc.html">品牌故事</a>
+										<a href="lc.html">加盟优势</a>
 									</dd>
 									<dd>
-										<a href="cl.html">品牌形象</a>
+										<a href="lc.html">店铺解析</a>
 									</dd>
 									<dd>
-										<a href="lc.html">品牌优势</a>
+										<a href="lc.html">创业案例</a>
 									</dd>
 									<dd>
-										<a href="lc.html">总部支持</a>
+										<a href="lc.html">加盟支持</a>
 									</dd>
 									<dd>
 										<a href="lc.html">加盟流程</a>
 									</dd>
-
 								</dl>
 							</li>
 							<li>
 								<a href="newsy.html">新闻资讯</a>
 								<dl>
 									<dd>
-										<a href="newsy.html">新闻报道</a>
+										<a href="newsy.html">新闻中心</a>
 									</dd>
-
 								</dl>
 							</li>
-
 						</ul>
 					</nav>
 				</div>
@@ -139,7 +139,6 @@
 	</header>
 	<div id="banner">
 		<div class="banner-box parallax-objects">
-
 			<div class="b b1">
 				<span class="layer" data-depth=".5">
 					<img src="images/5_10.png">
@@ -243,7 +242,7 @@
 						<img src="images/4_03.png">
 					</a>
 				</div>
-
+	
 				<div class="nav-wrap">
 					<div class="nav-box clearfix">
 						<div class="close-wrap">
@@ -260,58 +259,52 @@
 									<a href="ppyx.html">品牌院线</a>
 									<dl>
 										<dd>
-											<a href="ppyx.html">品牌介绍</a>
+											<a href="ppyx.html">企业简介</a>
 										</dd>
 										<dd>
-											<a href="ppyx.html">品牌产品</a>
+											<a href="ppyx.html">品牌荣誉</a>
 										</dd>
-
 										<dd>
-											<a href="ppyx.html">品牌定位</a>
+											<a href="ppyx.html">品牌故事</a>
 										</dd>
-
 									</dl>
 								</li>
 								<li>
 									<a href="sd.html">店铺展示</a>
 									<dl>
 										<dd>
-											<a href="sd.html">店铺展示</a>
+											<a href="sd.html">门店展示</a>
 										</dd>
-
 									</dl>
 								</li>
 								<li>
 									<a href="lc.html">招商专区</a>
 									<dl>
 										<dd>
-											<a href="lc.html">品牌故事</a>
+											<a href="lc.html">加盟优势</a>
 										</dd>
 										<dd>
-											<a href="lc.html">品牌形象</a>
+											<a href="lc.html">店铺解析</a>
 										</dd>
 										<dd>
-											<a href="lc.html">品牌支持</a>
+											<a href="lc.html">创业案例</a>
 										</dd>
 										<dd>
-											<a href="lc.html">总部支持</a>
+											<a href="lc.html">加盟支持</a>
 										</dd>
 										<dd>
 											<a href="lc.html">加盟流程</a>
 										</dd>
-
 									</dl>
 								</li>
 								<li>
 									<a href="newsy.html">新闻资讯</a>
 									<dl>
 										<dd>
-											<a href="newsy.html">新闻报道</a>
+											<a href="newsy.html">新闻中心</a>
 										</dd>
-
 									</dl>
 								</li>
-
 							</ul>
 						</nav>
 					</div>
@@ -321,224 +314,115 @@
 	</div>
 	<div id="index-content">
 		<div class="index-about">
-			<div class="red-bg"></div>
-			<div class="container">
-				<div class="index-about-content parallaxy-animate" parallaxy-options='{"multiplier":"0.2", "direction":"up", "positionType":"relative"}'>
-					<div class="index-tit">
-						<span>
-							<i id="a3" class="shade">
-								<strong>关于我们</strong>
-							</i>
-						</span>
-					</div>
-					<h5 id="a1" class="fonts">
-						<strong>
-							<span>情怀主题冷锅串串
-								<i></i>
-							</span>
-						</strong>
-					</h5>
-					<p id="a2" class="bshow">印象小煮综合辣椒、麻辣的问话气质，取其“火辣”、“香辣”的特点，并大胆升级，将麻辣风浓郁的冷串、鸭货等于颇具文艺感的莎拉串、现泡凉茶、添盖儿饮品、吮指小吃、花痴粉等完美结合，带来轻松、时尚、快捷的“麻辣·印象”感受！</p>
-					<p>印象小煮的麻辣特点既是普通的物质，更是无处不在的火辣精神。印象系产品饱含着苦辣、酸爽、甘甜与清香，不正式对青色与欢笑的青春最好的诠释吗？</p>
-				</div>
-				<div class="img-1">
-					<div id="a4" class="img-show parallaxy-animate" parallaxy-options='{"multiplier":"0.1", "direction":"up", "positionType":"relative"}'>
-						<img class="" src="images/6_22.png">
-					</div>
-				</div>
-				<div class="img-2">
-					<img class="parallaxy-animate" parallaxy-options='{"multiplier":"0.1", "direction":"up", "positionType":"relative"}' src="images/13_22.png">
-				</div>
-			</div>
-		</div>
-		<!--<div class="index-award">
-			<div class="award-bg">
-				<div class="img-1"><img class=" parallaxy-animate" parallaxy-options='{"multiplier":"0.1", "direction":"up", "positionType":"relative"}' src="images/index_award_img1.png"></div>
-				<div class="img-2"><img class=" parallaxy-animate" parallaxy-options='{"multiplier":"0.1", "direction":"up", "positionType":"relative"}' src="images/index_award_img2.png"></div>
-				<div class="img-3"><img class=" parallaxy-animate" parallaxy-options='{"multiplier":"0.25", "direction":"up", "positionType":"relative"}' src="images/index_award_img3.png"></div>
-				<div class="line"><span></span></div>
-			</div>
-			<div class="index-award-content parallaxy-animate" parallaxy-options='{"multiplier":"0.2", "direction":"up", "positionType":"relative"}'>
-				<div class="img-4"><img class="rotate" src="images/index_award_svg4.svg"></div>
-				<div class="content-box">
-					<div class="index-tit">
-						<span id="a5" class="shade"><strong>本年荣誉</strong></span>
-					</div>
-					<div id="a6" class="bshow">
-						<p><img src="images/award_icon.png">第五届“中国食品健康七星奖”品质卓越奖、“七星企业“称号</p>
-						<p><img src="images/award_icon.png">2016中国特色餐饮集团50强</p>
-						<p><img src="images/award_icon.png">2016中国优秀连锁餐饮品牌（上海小南国）</p>
-					</div>
-					<div id="a7" class="d bshow">
-						<i></i>
-						<i></i>
-						<i></i>
-					</div>
-					<div id="a8" class="more bshow"><a href="news_award.php"><strong>历年荣誉</strong></a></div>
-				</div>
-			</div>
-		</div>-->
-		<div class="index-brand">
-			<div class="line"></div>
-			<!-- <div class="img-1 parallaxy-animate" parallaxy-options='{"multiplier":"0.1", "direction":"up", "positionType":"relative"}'><div id="a9" class="img-show"><img src="images/index_brand_img.jpg"></div></div> -->
-			<div class="index-tit parallaxy-animate" parallaxy-options='{"multiplier":"0.2", "direction":"up", "positionType":"relative"}'>
-				<span id="a10" class="shade">
-					<strong>
-						<i class="i1 i-left">品</i>
-						<i class="i2 i-left">牌</i>
-						<i class="i3 i-left">产</i>
-						<i class="i4">品</i>
-					</strong>
-				</span>
-			</div>
-			<div class="index-brand-wrap parallaxy-animate" parallaxy-options='{"multiplier":"0.2", "direction":"up", "positionType":"relative"}'>
-				<div class="container">
-					<div class="index-brand-box">
-						<ul id="a11" class="zero6">
-							<li>
-								<div class="inner-li">
-									<a href="ppyx.html">
-										<img src="images/8_26.png">
-									</a>
-								</div>
-							</li>
-							<li>
-								<div class="inner-li">
-									<a href="ppyx.html">
-										<img src="images/8_29.png">
-									</a>
-								</div>
-							</li>
-							<li>
-								<div class="inner-li">
-									<a href="ppyx.html">
-										<img src="images/9_28.png">
-									</a>
-								</div>
-							</li>
-						</ul>
-						<!--  -->
-						<ul id="a11" class="zero6">
-							<li>
-								<div class="inner-li">
-									<a href="ppyx.html">
-										<img src="images/10_37.png">
-									</a>
-								</div>
-							</li>
-							<li>
-								<div class="inner-li">
-									<a href="ppyx.html">
-										<img src="images/10_39.png">
-									</a>
-								</div>
-							</li>
-							<li>
-								<div class="inner-li">
-									<a href="ppyx.html">
-										<img src="images/11_41.png">
-									</a>
-								</div>
-							</li>
-
-						</ul>
-					</div>
-				</div>
-				<div class="img-2">
-					<img src="images/kz.png">
-				</div>
-
-			</div>
-		</div>
-		<div class="index-news">
 			<div class="container">
 				<div class="img-1">
-					<img class="parallaxy-animate" parallaxy-options='{"multiplier":"0.2", "direction":"up", "positionType":"relative"}' src="images/13_44.png">
-				</div>
-				<!-- <div class="img-2"><img class="parallaxy-animate" parallaxy-options='{"multiplier":"0.2", "direction":"up", "positionType":"relative"}' src="images/index_news_img.png"></div> -->
-				<div class="index-tit">
-					<span id="a12" class="shade">
-						<strong>新闻中心</strong>
-					</span>
-				</div>
-				<div class="index-news-box">
-					<ul id="a13" class="index-news-list no-type bshow">
-						<li>
-							<div class="inner-li">
-								<a href='javascript:void(0);' target='_blank'>
-									<span> 弥宫新店开业全场折扣满减，机不可失失不再来</span>
-								</a>
-								<p>
-									<span>2018年12月15日</span>
-								</p>
-							</div>
-						</li>
-						<li>
-							<div class="inner-li">
-								<a href='javascript:void(0);' target='_blank'>
-									<span> 弥宫新店开业全场折扣满减，机不可失失不再来</span>
-								</a>
-								<p>
-									<span>2018年12月15日</span>
-								</p>
-							</div>
-						</li>
-						<li>
-							<div class="inner-li">
-								<a href='javascript:void(0);' target='_blank'>
-									<span>弥宫新店开业全场折扣满减，机不可失失不再来</span>
-								</a>
-								<p>
-									<span>2018年12月15日</span>
-								</p>
-							</div>
-						</li>
-						<!--
-						<li>
-							<div class="inner-li">
-								<a href="#" target="_blank"><span>转型中的小南国交出了一份不错的成绩单转型中的小南国交出了一份不错的成绩单</span></a>
-								<p><span>2017年06月21日</span>  -  <span>第一财经周刊</span></p>
-							</div>
-						</li>
-						<li>
-							<div class="inner-li">
-								<a href="#" target="_blank"><span>转型中的小南国交出了一份不错的成绩单转型中的小南国交出了一份不错的成绩单</span></a>
-								<p><span>2017年06月21日</span>  -  <span>第一财经周刊</span></p>
-							</div>
-						</li>
-						<li>
-							<div class="inner-li">
-								<a href="#" target="_blank"><span>转型中的小南国交出了一份不错的成绩单转型中的小南国交出了一份不错的成绩单</span></a>
-								<p><span>2017年06月21日</span>  -  <span>第一财经周刊</span></p>
-							</div>
-						</li>
-						<li>
-							<div class="inner-li">
-								<a href="#" target="_blank"><span>转型中的小南国交出了一份不错的成绩单转型中的小南国交出了一份不错的成绩单</span></a>
-								<p><span>2017年06月21日</span>  -  <span>第一财经周刊</span></p>
-							</div>
-						</li>
-						-->
-					</ul>
-					<!-- <div class="more-wrap"><a href="news.html" class="more">更多新闻</a></div> -->
-				</div>
-			</div>
-		</div>
-		<div class="index-ann">
-			<div class="container">
-				<div id="a16" class="ann-cover img-show">
-					<img src="images/12_47.png">
-				</div>
+					<div class="header1">
+						<img src="./images/yxxz-3.png" alt="">
+					</div>
+					<div class="header2">
+						<div class="header3">
+							<img src="./images/XCEzSn5sJwoHRNR1JMhx.png" alt="">
+							<img src="./images/5zpjHZHAk0Tlip17W6Ct.png" alt="">
+						</div>
+						<div class="header4">
 
-			</div>
-			<div class="line-1">
-				<span class="parallaxy-animate" parallaxy-options='{"multiplier":"0.2", "direction":"up", "positionType":"relative"}'></span>
-			</div>
+							<img src="./images/oVuzyXFoTNYOqoROIu3o.png" alt="">
+
+							<img src="./images/jrDyPrPOp1dPPQFDwaUw.png" alt="">
+
+							<img src="./images/m8FO3G6VPFSd2NHrA9Bk.png" alt="">
+
+						</div>
+					</div>
+				</div>
+				<div class="exhibition">
+					<div class="exhibition1">
+
+						<img src="./images/nWWmet5ZQHSTpnQq2DBs.png" alt="" class="exhibition2">
+
+						<img src="./images/vI3bOuqaUj8olGal5MCo.png" alt="" class="exhibition3">
 
 
+
+					</div>
+				</div>
+				<div class="about_us">
+					<div class="about clearfix">
+						<img src="./images/tW3BEuVfYeShUJ6xWDnr.png" alt="" class="about1">
+						<div class="about2">
+							<img src="./images/jjHLmRtoxc8tP6Na5Y2O.png" alt="">
+							<img src="./images/50kWTecjXeUlbOhkQLRI.png" alt="">
+							<img src="./images/yxxz-17.png" alt="" class="about3">
+							<img src="./images/yxxz-18.png" alt="" class="about4">
+						</div>
+					</div>
+				</div>
+				<div class="news">
+					<div class="news1">
+						<img src="./images/yxxz-19.png" alt="" class="news2">
+					</div>
+					<div class="news3">
+						<div class="news4">
+							<img src="./images/oWX1RSmGPfpc0nCfQsed.png" alt="">
+							<p>如何提高印象小煮</p>
+							<span>饮行业的发展离不开中国经济的高速发展，也随着消费者群体的壮大而发展迅速。很多年轻人在大学毕业后都想旋转串串香加盟来进行创业，但是</span>
+						</div>
+
+						<div class="news4">
+							<img src="./images/4wjqgbdygGe02oCXC3B5.png" alt="">
+							<p>为什么近年来印象小煮</p>
+							<span>这几年餐饮市场发展迅速，同上餐饮行业中的竞争也是愈发激烈，各大餐饮品牌都用处浑身解数来使其充满特色。如同四川冷锅串串，菜品愈发</span>
+						</div>
+
+						<div class="news4">
+							<img src="./images/YTkrDXeNUeeqrPAMrjYG.png" alt="">
+							<p>如何提高印象小煮</p>
+							<span>串串香和冷锅串串项目这两年的发展势头很猛，但是也正因为如此，出现了各种各样的串串香和冷锅串串加盟品牌，造成产品同质化相当严重。印象</span>
+						</div>
+					</div>
+					<div class="join">
+						<div><img src="./images/yxxz-23.png" alt=""></div>
+						<div class="myscroll">
+							<ul>
+
+								<li><a href="javascript:void(0);">恭喜四川省成都市张先生成功签约 <span class="join0">18-10-03 10:53:31</span></a></li>
+
+								<li><a href="javascript:void(0);">恭喜四川省成都市李先生成功签约 <span class="join0">18-10-03 10:57:35</span></a></li>
+
+								<li><a href="javascript:void(0);">恭喜四川省成都市张先生成功签约 <span class="join0">18-10-03 10:57:41</span></a></li>
+
+								<li><a href="javascript:void(0);">恭喜四川省成都市张先生成功签约 <span class="join0">18-10-03 10:57:46</span></a></li>
+
+								<li><a href="javascript:void(0);">恭喜四川省成都市李先生成功签约 <span class="join0">18-10-03 10:57:51</span></a></li>
+
+								<li><a href="javascript:void(0);">恭喜四川省成都市李先生成功签约 <span class="join0">18-10-03 10:57:55</span></a></li>
+
+								<li><a href="javascript:void(0);">恭喜四川省成都市张先生成功签约 <span class="join0">18-10-03 10:57:59</span></a></li>
+
+								<li><a href="javascript:void(0);">恭喜四川省成都市李先生成功签约 <span class="join0">18-10-03 10:58:03</span></a></li>
+
+								<li><a href="javascript:void(0);">恭喜四川省成都市张先生成功签约 <span class="join0">18-10-03 10:58:08</span></a></li>
+
+								<li><a href="javascript:void(0);">恭喜四川省成都市张先生成功签约 <span class="join0">18-10-03 10:58:18</span></a></li>
+
+								<li><a href="javascript:void(0);">恭喜四川省成都市张先生成功签约 <span class="join0">18-10-03 10:58:23</span></a></li>
+
+								<li><a href="javascript:void(0);">恭喜四川省成都市李先生成功签约 <span class="join0">18-10-03 10:58:27</span></a></li>
+
+							</ul>
+						</div>
+						<div class="join1">
+							<img src="./images/wFJjCnIZecogKWiovTcm.png" alt="">
+							<p>串串香加盟三大经营</p>
+							<span>串串香和冷锅串串项目这两年的发展势头很猛，但是也正因为如此，出现了各种各样的串串香和冷锅串串加盟品牌，造成产品同质化相当严重。印象</span>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
-
+	<script src="js/jquery-1.8.3.min.js"></script>
+	<script src="js/scroll.js"></script>
 	<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
 	<script src="js/jquery.easing.min.js"></script>
 	<script src="js/slick.min.js"></script>
@@ -546,6 +430,15 @@
 	<script src="js/para.js"></script>
 	<script src="js/jquery.parallax.min.js"></script>
 	<script src="js/public.js"></script>
+
+	<script type="text/javascript">
+		$(function () {
+			$('.myscroll').myScroll({
+				speed: 40, //数值越大，速度越慢
+				rowHeight: 26 //li的高度
+			});
+		});
+	</script>
 </body>
 
 </html>

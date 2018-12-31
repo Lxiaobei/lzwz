@@ -148,7 +148,7 @@ ul.ir-ann-ul li a{height:50px;
     position: absolute;
     right: 50px;
     top: 50%;
-    // width: 330px;
+    /* // width: 330px; */
     transform: translate(0, -50%);
   }
   .head-right-ph .lang-wrap .lang-menu{
@@ -194,9 +194,7 @@ ul.ir-ann-ul li a{height:50px;
 
   .ir-cale-main{width:450px;display:inherit;}
 
-  table.sitemap-table{
 
-  }
 
 }
 @media (max-width: 1023px){
@@ -549,22 +547,16 @@ ul.sitemap-list li dd{ display:block;width:100%;}
   }
   .banner-box .b3 {
     width: 7%;
-    top: ;
     left: 24%;
   }
   .banner-box .b4 {
     width: 60%;
-    top: ;
-    left: ;
   }
   .banner-box .b5 {
     top: 58%;
     left: 75%;
   }
-  .banner-box .b6 {
-    top: ;
-    left: ;
-  }
+
   .banner-box .b7 {
     width: 23%;
     top: 75%;
@@ -572,17 +564,13 @@ ul.sitemap-list li dd{ display:block;width:100%;}
   }
   .banner-box .b8 {
     width: 5%;
-    top: ;
-    left: ;
+
   }
   .banner-box .b9 {
     top: 80%;
     left: 78%;
   }
-  .banner-box .b10 {
-    top: ;
-    left: ;
-  }
+
   .banner-box .b-info h3 {
     font-size:80px;
   }
@@ -612,11 +600,11 @@ ul.sitemap-list li dd{ display:block;width:100%;}
     max-width:750px;
     float: left;
   }
-  .index-about .img-1 {
+  /* .index-about .img-1 {
     width: 40%;
     max-width:530px;
     float: left;
-  }
+  } */
   .index-about .img-2 {
     max-width: 400px;
     bottom: 0;
@@ -1002,9 +990,9 @@ ul.sitemap-list li dd{ display:block;width:100%;}
     /*top: 300px;*/
     top: 115px;
   }
-  /* .index-ann .line-1{
+  .index-ann .line-1{
     top: 580px;
-  } */
+  }
   .index-ann .img-1{
     top: 290px;
   }
@@ -1589,9 +1577,9 @@ ul.sitemap-list li dd{ display:block;width:100%;}
     top: 285px;
   }
 
-  /* .index-ann .line-1{
+  .index-ann .line-1{
     top: 570px;
-  } */
+  }
   .index-ann .line-2{
     top: 765px;
   }
@@ -1722,11 +1710,7 @@ ul.sitemap-list li dd{ display:block;width:100%;}
   }
 
 }
-@media (min-width: 1500px) {
-  #ver-en header .stock-box{
-    /*min-width: 510px;*/
-  }
-}
+
 @media (min-width: 1600px) {
   #ver-en .sp-wrap{
     width: 55%;
@@ -1794,11 +1778,7 @@ ul.sitemap-list li dd{ display:block;width:100%;}
     padding-right: 35px;
     padding-left: 35px;
   }
-  #ver-tc .banner-box h3,
-  #ver-sc .banner-box h3,
-  #ver-en .banner-box h3 {
-   /* letter-spacing:120px;*/
-  }
+
 
 
   #ver-tc .index-about .index-tit span,
