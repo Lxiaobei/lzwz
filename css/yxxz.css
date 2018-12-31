@@ -149,7 +149,7 @@
 .news4{
     display: flex;  justify-content: center;  align-items: center;
     flex-direction: column;  
-    margin-left: 50px;
+    /* margin-left: 50px; */
 }
 .news3 p{
     text-decoration:underline;
