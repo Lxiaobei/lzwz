@@ -285,17 +285,15 @@ $(function(){
                }
                return false;
             }
-            else if(len == 3){
-             //return true;
-             //console.log(len);
-             $("html, body").animate({
-                scrollTop: $("#index-content").offset().top - 80 + "px"
-              }, {
-                duration: 1500,
-                easing: "swing"
-              });
-              return false;
-             }
+            // else if(len == 3){
+            //  $("html, body").animate({
+            //     scrollTop: $("#index-content").offset().top - 80 + "px",
+            //   }, {
+            //     duration: 1500,
+            //     easing: "swing"
+            //   });
+            //   return false;
+            //  }
         }
 
     });

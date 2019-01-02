@@ -74,9 +74,8 @@ $(function(){
 				if($navWrap.is(":visible")){
 					$navWrap.slideUp("easeOutQuart");
 				}else{
-					console.log("hover");
+					// console.log("hover");
 					$navWrap.slideDown("easeOutQuart");
-
 				}
 			});
 
