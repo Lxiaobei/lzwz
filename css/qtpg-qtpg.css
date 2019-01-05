@@ -403,7 +403,6 @@ header {
 .zx1 {
     animation: roate1 2s;
     animation-fill-mode: forwards;
-    /*鍋滃湪鏈€鍚庝竴閽�*/
     animation-direction: alternate;
 }
 
@@ -455,7 +454,6 @@ header {
 .zx2 {
     animation: flipInY 2s;
     animation-fill-mode: forwards;
-    /*鍋滃湪鏈€鍚庝竴閽�*/
     animation-direction: alternate;
     animation-delay: .3s;
 }
@@ -463,7 +461,6 @@ header {
 .zx3 {
     animation: flipInY 2s;
     animation-fill-mode: forwards;
-    /*鍋滃湪鏈€鍚庝竴閽�*/
     animation-direction: alternate;
     animation-delay: .5s;
 }
@@ -475,7 +472,6 @@ header {
 .zx4 {
     animation: roate2 2s;
     animation-fill-mode: forwards;
-    /*鍋滃湪鏈€鍚庝竴閽�*/
     animation-direction: alternate;
 }
 
@@ -497,7 +493,6 @@ header {
 .zx5 {
     animation: roate3 2s;
     animation-fill-mode: forwards;
-    /*鍋滃湪鏈€鍚庝竴閽�*/
     animation-direction: alternate;
 }
 
@@ -515,7 +510,6 @@ header {
 .zx6 {
     animation: roate4 2s;
     animation-fill-mode: forwards;
-    /*鍋滃湪鏈€鍚庝竴閽�*/
     animation-direction: alternate;
     animation-delay: .3s;
 }
@@ -523,7 +517,6 @@ header {
 .zx7 {
     animation: roate4 2s;
     animation-fill-mode: forwards;
-    /*鍋滃湪鏈€鍚庝竴閽�*/
     animation-direction: alternate;
     animation-delay: .4s;
 }
@@ -531,7 +524,6 @@ header {
 .zx8 {
     animation: roate4 2s;
     animation-fill-mode: forwards;
-    /*鍋滃湪鏈€鍚庝竴閽�*/
     animation-direction: alternate;
     animation-delay: .5s;
 }
@@ -539,7 +531,6 @@ header {
 .zx9 {
     animation: roate4 2s;
     animation-fill-mode: forwards;
-    /*鍋滃湪鏈€鍚庝竴閽�*/
     animation-direction: alternate;
     animation-delay: .6s;
 }
@@ -547,7 +538,6 @@ header {
 .zx10 {
     animation: roate4 2s;
     animation-fill-mode: forwards;
-    /*鍋滃湪鏈€鍚庝竴閽�*/
     animation-direction: alternate;
     animation-delay: .7s;
 }
@@ -556,7 +546,6 @@ header {
     from {
         opacity: 0;
         margin-top: -10%;
-
     }
     to {
         opacity: 1;
@@ -681,7 +670,6 @@ header {
     .footer_nav,.footer{
         display: none;
     }
-    /*  */
     /*  */
     .fooo{
         display: block;
