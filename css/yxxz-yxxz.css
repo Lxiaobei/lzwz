@@ -258,3 +258,14 @@
     cursor:pointer;
     background-color: rgba(255,0,0,0);
 }
+
+.lunbotu0{
+    background-color: #dbd2bd;
+}
+.lunbotu{
+    display: flex;  justify-content:space-around;
+}
+body .container{
+    padding: 0;
+    width: 100%;
+}

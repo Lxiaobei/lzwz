@@ -12,6 +12,7 @@
 	<link rel="stylesheet" href="./css/c.css">
 	<link rel="stylesheet" href="css/publica.css" />
 	<link rel="stylesheet" href="css/screena.css" />
+	<link rel="stylesheet" href="./css/swipeslider1.css">
 	<script src="js/jquery-2.2.1.min.js"></script>
 	<script src="js/modernizr-2.8.3.min.js"></script>
 	<script src="js/mqk3cpz.js"></script>
@@ -342,17 +343,31 @@
 						<img src="./images/vI3bOuqaUj8olGal5MCo.png" alt="" class="exhibition3">
 					</div>
 				</div>
-				<div class="about_us">
-					<div class="about clearfix">
-						<img src="./images/tW3BEuVfYeShUJ6xWDnr.png" alt="" class="about1">
-						<div class="about2">
+				<!-- 轮播图 -->
+				<div class="lunbotu0">
+					<div class="lunbotu">
+						<article class="container">
+							<section>
+								<figure id="responsiveness" class="swipslider">
+									<ul class="sw-slides">
+										<li class="sw-slide">
+											<img src="./images/tW3BEuVfYeShUJ6xWDnr.png" alt="Concept for children game">
+										</li>
+										<li class="sw-slide">
+											<img src="./images/tW3BEuVfYeShUJ6xWDnr1.png" alt="Another Concept for children game">
+										</li>
+									</ul>
+								</figure>
+							</section>
+						</article>
+						<div>
 							<img src="./images/jjHLmRtoxc8tP6Na5Y2O.png" alt="">
-							<img src="./images/50kWTecjXeUlbOhkQLRI.png" alt="">
-							<img src="./images/yxxz-17.png" alt="" class="about3">
-							<img src="./images/yxxz-18.png" alt="" class="about4">
 						</div>
 					</div>
+
 				</div>
+
+				<!--  -->
 				<div class="news">
 					<div class="news1">
 						<img src="./images/yxxz-19.png" alt="" class="news2">
@@ -424,11 +439,29 @@
 	<script src="js/para.js"></script>
 	<script src="js/jquery.parallax.min.js"></script>
 	<script src="js/public.js"></script>
+	<script src="./js/swipeslider.min.js"></script>
 	<script type="text/javascript">
 		$(function () {
 			$('.myscroll').myScroll({
 				speed: 40, //数值越大，速度越慢
 				rowHeight: 26 //li的高度
+			});
+		});
+		// 
+		//轮播图
+		$(window).load(function () {
+			$('#full_feature').swipeslider();
+			$('#content_slider').swipeslider({
+				transitionDuration: 600,
+				autoPlayTimeout: 10000,
+				sliderHeight: '300px'
+			});
+			$('#responsiveness').swipeslider();
+			$('#customizability').swipeslider({
+				transitionDuration: 1500,
+				autoPlayTimeout: 4000,
+				timingFunction: 'cubic-bezier(0.38, 0.96, 0.7, 0.07)',
+				sliderHeight: '30%'
 			});
 		});
 	</script>

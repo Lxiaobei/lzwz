@@ -13,7 +13,7 @@ a {blr:e­xpression(this.onFocus=this.blur())}
 area {blr:e­xpression(this.onFocus=this.blur())}
 
 .topl a img{
-    /* width: 100%; */
+    width: 86%;
     height: 100%;
     padding-left: 22%;
 }
@@ -59,7 +59,7 @@ area {blr:e­xpression(this.onFocus=this.blur())}
 #war .banner .bannerfc .bannerfcn .bannerfcnx ul li .bannerfcnxl{width:234px;height:25px;float:left;overflow:hidden;white-space:nowrap;text-overflow:ellipsis; margin-right:9px;}
 #war .banner .bannerfc .bannerfcn .bannerfcnx ul li .bannerfcnxr{width:80px;height:25px;float:left;}
 
-#war .foot{width:100%;height:auto;overflow:hidden;position: fixed;left: 0%;top: 90%;z-index: 999;background-color: rgba(0,0,0,.5);}
+#war .foot{width:100%;height:auto;overflow:hidden;position: fixed;left: 0%;top: 92%;z-index: 999;background-color: rgba(0,0,0,.5);}
 #war .foot .foots{width:100%;height:auto;overflow:hidden;}
 #war .foot .foots .footsn{width:1400px;overflow:hidden;margin:0px auto;}
 #war .foot .foots .footsn ul{margin:0px;padding:0px;}
@@ -67,7 +67,7 @@ area {blr:e­xpression(this.onFocus=this.blur())}
 #war .foot .foots .footsn ul li:hover{background-color: #c7000a;}
 #war .foot .foots .footsn ul li a{width:273px;display:block;}
 #war .foot .foots .footsn ul li a .footsnl{width:124px;float:left;display: flex;  justify-content: center;  align-items: center; }
-#war .foot .foots .footsn ul li a .footsnr{width:149px;float:left; line-height:63px; font-size:20px; color:#FFF;}
+#war .foot .foots .footsn ul li a .footsnr{width:149px;float:left; line-height:54px; font-size:20px; color:#FFF;}
 
 #war .foot .footx{width:100%;height:auto;overflow:hidden;background-color:#1f1510;padding-top:18px;}
 
