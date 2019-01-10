@@ -17,7 +17,7 @@ area {blr:e­xpression(this.onFocus=this.blur())}
     height: 100%;
     padding-left: 16%;
 }
-#war{width:100%;height:auto;}
+#war{width:100%;height:auto;max-height: 100vh;}
 #war .top{width:100%;height:55px;overflow:hidden;background-color:rgba(255,255,255,.6);position:fixed;z-index:10;top:0px;}
 
 #war .top .topn{width:1380px;height:55px;overflow:hidden;margin:0px auto;}
@@ -29,8 +29,8 @@ area {blr:e­xpression(this.onFocus=this.blur())}
 #war .top .topn .topr ul li a:hover{width:140px;height:66px;display:block;color:#ffffff;background-color:#c7000a;}
 #war .top .topn .topr ul li a.cur{width:140px;height:66px;display:block;color:#ffffff;background-color:#c7000a;}
 
-#war .banner{width:100%;height:627px;overflow:hidden;}
-#war .banner .bannerbg{width:100%;height:627px;overflow:hidden;position:relative;z-index:3;display: block;background-size: 100% 100%;}
+#war .banner{width:100%;height:100%;overflow:hidden;max-height: 100vh;}
+#war .banner .bannerbg{width:100%;height:100%;overflow:hidden;position:relative;z-index:3;display: block;background-size: 100% 100%;}
 
 #war .banner .bannerbgan{width:100%;height:60px;overflow:hidden;position:absolute;z-index:6; margin-top:-330px;}
 
