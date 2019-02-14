@@ -267,6 +267,7 @@ iframe{
     margin: 8px 0;
 }
 .shangxialunbo2 ul{
+    width: 130px;
     height: 69vh;
     overflow-y: scroll;
 }
@@ -276,10 +277,13 @@ iframe{
 .shangxialunbo2 ul li{
     float: left;
     height: 14vh;
+    width: 90px;
+    margin-left: 20px;
 }
 .shangxialunbo2 ul li img{
-    width: 80%;
-    height: 88%;
+    width: 90px;
+    height: 90px;
+    /* margin-left: 22%; */
 }
 p{
     cursor: pointer;
