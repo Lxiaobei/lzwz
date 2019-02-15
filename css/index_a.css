@@ -94,16 +94,21 @@ body{
 .dingbu_xialax li{
     margin-top: 10%;
 }
-.dingbu_xialax a{
+
+.dingbu_xialax .jt{
+    display: flex;  flex-direction: column;
     margin-left: 10px;
+    
+}
+.dingbu_xialax a{
     font-size: 16px;
 }
 .dingbu_xialax a{
     color:#fff;
 }
-.dingbu_xialax .miz{
+/* .dingbu_xialax .miz{
     margin-left: 14px;
-}
+} */
 /*  */
 .dingbu_xialax{
     display: flex; 
