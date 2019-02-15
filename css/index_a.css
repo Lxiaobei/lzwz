@@ -79,26 +79,35 @@ body{
     display: none;
 }
 .dingbu_xialax ul{
-    margin-left: 10%;
+    margin-left: 4%;
+    width: 140px;
+    display: flex;  justify-content: space-between;
+    align-items: center;
 }
-.dingbu_xialax ul:first-child{
+.dingbu_xialax img{
+    width: 50px;
+    height: 50px;
+}
+/* .dingbu_xialax ul:first-child{
     margin: 0;
-}
+} */
 .dingbu_xialax li{
     margin-top: 10%;
 }
-.dingbu_xialax span{
-    margin-left: 10%;
+.dingbu_xialax a{
+    margin-left: 10px;
     font-size: 16px;
 }
 .dingbu_xialax a{
     color:#fff;
 }
-
+.dingbu_xialax .miz{
+    margin-left: 14px;
+}
 /*  */
 .dingbu_xialax{
     display: flex; 
-    width: 80%;
+    width: 95%;
     margin: 0 auto;
     padding: 20px 0;
 }
